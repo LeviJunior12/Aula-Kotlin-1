@@ -5,9 +5,5 @@ fun main() {
 }
 
 fun analisarNumeros(numA: Int, numB: Int, numC: Int, numD: Int): Boolean {
-    if(numA > numC && numA > numD || numB > numC && numB > numD) {
-        return true
-    } else {
-        return false
-    }
+    return numA > numC && numA > numD || numB > numC && numB > numD
 }
