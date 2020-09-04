@@ -1,6 +1,7 @@
 package br.com.digitalhouse.exercicios2
 
 // Arquivo classe conta
+// Como comentar todas as linha Ctrl + /
 class Conta(var numeroDaConta: Int, var saldo: Double, var titular: Cliente) {
 
     fun deposito(qntDinheiro: Double) {
